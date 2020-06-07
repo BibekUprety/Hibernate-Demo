@@ -13,13 +13,17 @@ repositories {
 }
 
 dependencies {
+	// https://mvnrepository.com/artifact/org.projectlombok/lombok
+	implementation group: 'org.projectlombok', name: 'lombok', version: '1.18.10'
+
+
 	// https://mvnrepository.com/artifact/com.h2database/h2
-	implementation group: 'com.h2database', name: 'h2', version :'1.4.193'
+	implementation group: 'com.h2database', name: 'h2'
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-web
-	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.2.7.RELEASE'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-web'
 
 	// https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa
-	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa', version: '2.2.7.RELEASE'
+	compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-jpa'
 
 
 
